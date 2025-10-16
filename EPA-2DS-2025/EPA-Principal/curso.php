@@ -1,0 +1,53 @@
+<!--
+                    Página sobre o curso
+            Indica como o curso funciona, como materias etc
+-->
+
+<?php 
+include 'footer.php';
+include 'header.php';
+?>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPA</title>
+</head>
+<body>
+    <div class="mb-3">
+        <div class="row">
+            <h1 class="roboto-subtitle">
+                Sobre Desenvolvimento de Sistema
+            </h1>
+        </div>
+        <div class="row">
+            <p class="roboto-regular">
+            Curso de Desenvolvimento de Sistemas – ETEC Sales Gomes (Tatuí – SP) <br>
+
+            O curso de Desenvolvimento de Sistemas integrado ao Ensino Médio da ETEC Sales Gomes é uma <br>
+            oportunidade única para quem deseja começar o futuro agora. Além de cursar o ensino médio <br>
+            normalmente, o estudante também aprende conteúdos técnicos voltados à tecnologia da informação, como <br>
+            programação, banco de dados, criação de sites e aplicativos, e muito mais. <br>
+            <br>
+            Ao final do curso, o aluno sai com diploma técnico reconhecido, preparado tanto para ingressar no <br>
+            mercado de trabalho quanto para continuar os estudos em faculdades da área. Enquanto muitos jovens <br>
+            concluem apenas o ensino médio comum, quem estuda na ETEC já adquire experiência prática e <br>
+            conhecimentos valorizados por empresas de tecnologia, que buscam cada vez mais profissionais qualificados. <br>
+            <br>
+            Estudar na ETEC significa estar à frente, com ensino público de qualidade, professores especializados e uma <br>
+            formação que une teoria, prática e inovação. Se você gosta de tecnologia, lógica e criatividade, o <br>
+            Vestibulinho da ETEC Sales Gomes é o primeiro passo para transformar seu interesse em uma carreira promissora!
+
+            </p>
+        </div>
+        <div class="row">
+            <h1 class="subtitle">Creditos</h1>
+        </div>
+        <div class="row">
+            <p class="roboo-regular">[Inserir os integrantes de cada grupo. Por exemplo: Grupo 1: NOME 1, NOME 2 etc...]</p>
+        </div>
+    </div>
+</body>
+</html>
