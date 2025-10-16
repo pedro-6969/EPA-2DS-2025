@@ -14,21 +14,22 @@ include 'header.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
+    <link rel="stylesheet" href="css/registro.css">
 </head>
 <body>
-    <div class="mb-3">
-        <div class="row">
-            <h1 class="roboto-title text-center">Registro</h1>
+    <div class="container-fluid">
+        <div class="form-registro row col-xl-6 col-s-10 justify-content-center h-100">
+            <h1 class="roboto-title text-center">Cadastro de Usuário</h1>
+            <form action="registro.php" class="roboto-regular" method="post">
+                <label for="pNome" class="label-control">Nome:</label>
+                <input type="text" name="pNome" id="pNome" class="form-control" maxlength="50" required autocomplete="off">
+                <br>
+                <input type="submit" value="Cadastrar" class="btn btn-primary" onclick="limpar()">
+            </form>
         </div>
         
         <!-- Formulário de registro -->
         
-        <form action="registro.php" class="roboto-regular" method="post">
-            <label for="pNome" class="label-control">Nome:</label>
-            <input type="text" name="pNome" id="pNome" class="form-control" maxlength="50" required autocomplete="off">
-            <br>
-            <input type="submit" value="Enviar" class="btn btn-primary" onclick="limpar()">
-        </form>
     </div>
     <div class="mb-3" id="exibirID"></div>
     </body>
