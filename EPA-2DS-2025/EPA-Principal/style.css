@@ -1,3 +1,9 @@
+:root{
+  --vermelho--: #8E1800;
+  --branco--: #F0F0F0;
+  --preto--: #150100;
+}
+
 .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
@@ -5,6 +11,7 @@
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
+    color: var(--branco--);
   }
 .roboto-subtitle {
     font-family: "Roboto", sans-serif;
@@ -28,4 +35,41 @@
   }
   *{
     padding: 5px;
+    
   }
+  .father-container{
+    border: 3px solid black;
+    min-height: 75%;
+
+  
+  }
+  .input-search{
+    width: 30%;
+  }
+  .display-ranking{
+    min-width: 100%;
+    background-color: var(--vermelho--);
+  }
+  .leaderboard-container{
+    border: 3px solid black;
+    max-width: 45%;
+    background-color: var(--preto--);
+  }
+  
+  .creepster-regular {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+  body{
+    background-image: url(../Fotos/fundoParqueHorror.png);
+    background-repeat: no-repeat;
+    background-size: cover;        /* cobre toda a tela */
+    background-position: center;   /* centraliza a imagem */
+    background-repeat: no-repeat;  /* impede repetição */
+    background-attachment: fixed; 
+
+  }
+
+  
