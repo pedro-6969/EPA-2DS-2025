@@ -59,6 +59,7 @@ include 'header.php';
                     <li>Luciano Souza</li>
                     <li>Lucas Miranda</li>
                 </ul>
+                <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
             </p>
         </div>
     </div>
